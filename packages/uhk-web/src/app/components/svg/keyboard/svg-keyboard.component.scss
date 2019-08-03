@@ -3,8 +3,14 @@
     width: 100%;
     position: relative;
 }
+
+.svgKeyboard {
+    z-index: 50;
+}
+
 editable-text {
     padding-left: 2em;
     padding-right: 2em;
     display: block;
+    z-index: 51;
 }
